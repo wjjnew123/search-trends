@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.wjjnew123/search-trends",
+  "description": "谷歌搜索(Serper) + Google Trends 多后端，14 个只读工具：网页/新闻/图片/学术/地图检索与需求热度、增长、实时热搜、地区、相关词/主题分析。",
+  "version": "1.0.0",
+  "repository": { "url": "https://github.com/wjjnew123/search-trends", "source": "github" },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpweb.wjjnew.cn/search-trends/mcp",
+      "headers": [
+        { "name": "Authorization", "description": "Bearer <mcp_sk_xxx>（在 https://mcpweb.wjjnew.cn/ 注册获取）", "isSecret": true, "isRequired": true }
+      ]
+    }
+  ]
+}
