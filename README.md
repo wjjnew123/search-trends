@@ -1,5 +1,7 @@
 # search-trends — 搜索与趋势（MCP 工具集）
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/wjjnew123/search-trends)
+
 谷歌搜索（Serper）+ Google Trends 多后端，共 **14 个只读工具**。
 
 - 远程端点：`https://mcpweb.wjjnew.cn/search-trends/mcp`（Streamable HTTP）
